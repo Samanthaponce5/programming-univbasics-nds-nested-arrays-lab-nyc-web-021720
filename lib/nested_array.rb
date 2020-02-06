@@ -42,7 +42,7 @@ conventional_produce = [
   "Eggplant"
 ].sort
 ]
-new_arr
+new_arr.sort
 end
 
 def matrix_lookup(matrix, row, column)
