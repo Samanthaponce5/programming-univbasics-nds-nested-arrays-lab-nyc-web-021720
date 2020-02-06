@@ -33,16 +33,16 @@ def sorted_matrix
   "Grapes",
   "Avocadoes",
   "Asparagus"
-],
+].sort,
 conventional_produce = [
   "Grapefruit",
   "Pineapple",
   "Oranges",
   "Watermelon",
   "Eggplant"
+].sort
 ]
-]
-new_arr.sort
+new_arr
 end
 
 def matrix_lookup(matrix, row, column)
