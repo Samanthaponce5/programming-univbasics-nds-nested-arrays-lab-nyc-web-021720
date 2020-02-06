@@ -28,20 +28,10 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   new_arr = [
-  conventional_produce = [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-].sort,
-organic_produce =[
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-].sort
+  produce_storage_room = [
+    CONVENTIONAL_PRODUCE.sort, 
+    ORGANIC_PRODUCE.sort
+    ]
 ]
 
 end
